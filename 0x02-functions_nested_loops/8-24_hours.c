@@ -8,6 +8,9 @@
  */
 void jack_bauer(void)
 {
+	int t;
+
+
 	for (t = 00:00; t <= 23:59; t++)
 	{
 		_putchar (t + '0');
