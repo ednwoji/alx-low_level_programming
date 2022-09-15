@@ -1,21 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 
 /**
- * int _abs(int r) - Check description
+ * int _abs(int c) - Check description
  * Description: Computes the absolute value of an integer
  * Return: Always 0 (Successful)
  */
-int _abs(int r)
+int _abs(int c)
 {
-	if (r > 0 || r > 0)
+	if (c == 0 || c > 0)
 	{
-		_putchar ('r');
-		return (0);
+		return (c);
 	}
 	else
 	{
-		_putchar ('0');
-		return (0);
+		return (c * -1);
 	}
 }
