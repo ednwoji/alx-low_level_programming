@@ -2,10 +2,11 @@
 
 
 /**
- * main - Entry point
+ * print_alphabet - Check description
  *
- * Return: Always 0 (Success)
- */ 
+ * Description: It prints the alphabet in lowercase followed by a space
+ * Return: Nothing.
+ */
 void print_alphabet(void)
 {
 	char i;
