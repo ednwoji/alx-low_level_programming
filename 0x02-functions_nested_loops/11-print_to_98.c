@@ -15,17 +15,17 @@ void print_to_98(int n)
 		{
 			printf("%d, ", n);
 			if (n == 97)
-				printf(", %d", 98);
+				printf("%d", 98);
 		}
 		printf("\n");
 	}
 	else if (n > 98)
 	{
-		for (n = n; n >= 97; n--)
+		for (n = n; n >= 99; n--)
 		{
 			printf("%d, ", n);
-			if (n == 97)
-				printf(", %d", 98);
+			if (n == 99)
+				printf("%d", 98);
 		}
 		printf("\n");
 	}
