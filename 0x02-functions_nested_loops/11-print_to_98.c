@@ -3,8 +3,9 @@
 
 
 /**
- * void print_to_98(int n) - Check the description
+ * print_to_98(int n) - Prints all natural numbers from input to 98
  * Description: Prints all natural numbers
+ * @n: the number to begin counting from
  * Return: 0 for successful
  */
 void print_to_98(int n)
