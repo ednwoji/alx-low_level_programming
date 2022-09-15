@@ -3,7 +3,7 @@
 
 /**
  * void jack_bauer(void) - Check description
- * Description: Prints every minute of the day starting from 00:00
+ * Description: Prints every minute of the day
  * Return: 0 if successful
  */
 void jack_bauer(void)
@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int hour_remainder;
 	int min_remainder;
 
-	while (hour <=23)
+	while (hour <= 23)
 	{
 		while (minute <= 59)
 		{
