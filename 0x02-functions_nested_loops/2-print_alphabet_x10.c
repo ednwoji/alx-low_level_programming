@@ -2,9 +2,9 @@
 
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_alphabet_x10 - check the code.
+ * Description: Prints alphabet 10 times in lowercase
+ * Return: Nothing.
  */
 void print_alphabet_x10(void)
 {
