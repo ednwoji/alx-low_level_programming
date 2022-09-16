@@ -2,9 +2,8 @@
 
 
 /**
- * int _isdigit(int c) - Checks for a digit 0 through 9
- * Description - Checks for the digit
- * @c: Input charater
+ * _isdigit - A function that checks for a digit (0 through 9)
+ * @c: An Input integer
  * Return: 1 if c is a digit, 0 if otherwise
  */
 int _isdigit(int c)

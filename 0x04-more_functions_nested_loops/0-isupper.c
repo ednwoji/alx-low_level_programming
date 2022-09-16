@@ -2,9 +2,8 @@
 
 
 /**
- * int _isupper(int c) - Check the description
+ * _isupper(int c) - A function that checks for uppercase character
  * @c: An input character
- * Description - Checks for uppercase character
  * Return: 1 if true, 0 if false
  */
 int _isupper(int c)

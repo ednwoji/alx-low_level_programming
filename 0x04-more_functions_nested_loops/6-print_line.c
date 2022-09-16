@@ -2,8 +2,10 @@
 
 
 /**
- * print_line(int n) - Draws a straight line in the Terminal
- *
+ * print_line - a function that draws a straight line in the Terminal
+ * followed by a new line
+ * @n: An input integer
+ * Return: Always 0
  */
 void print_line(int n)
 {
