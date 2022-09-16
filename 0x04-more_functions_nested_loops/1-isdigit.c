@@ -9,10 +9,10 @@
  */
 int _isdigit(int c)
 {
-	int value;
+	char value;
 	int check = 0;
 
-	for (value = 0; value <= 9; value++)
+	for (value = '0'; value <= '9'; value++)
 	{
 		if (c == value)
 		{
