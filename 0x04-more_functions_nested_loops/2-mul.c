@@ -2,15 +2,16 @@
 
 
 /**
- * int mul(int a, int b) - Check description
+ * int mul(int a, int b) - multiplies two integers
  * Description: Multiplies two integers
- * @a: Input character
- * @b: input character
- * Return: Always 0 (Success)
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
 int mul(int a, int b)
 {
-	int product = a * b;
+	int product;
+	product = a * b;
 	
 	return (product);
 }
