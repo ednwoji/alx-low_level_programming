@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		{
 			val = atoi(argv[i]);
 
-			if (val == '0')
+			if (val == 0)
 			{
 				printf("Error\n");
 				return (1);
