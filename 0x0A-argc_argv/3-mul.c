@@ -17,11 +17,14 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			z *= argv[i];
+			z = z * argv[i];
 		}
 		printf("%d\n", z);
 	}
 	else
-		printf("Error");
+	{
+		printf("Error\n");
+		return (1);
+	}
 	return (0);
 }
