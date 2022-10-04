@@ -2,21 +2,21 @@
 
 
 /**
- * _isdigit - A function that checks for a digit (0 through 9)
- * @c: An Input integer
- * Return: 1 if c is a digit, 0 if otherwise
+ * _isupper(int c) - A function that checks for uppercase character
+ * @c: An input character
+ * Return: 1 if true, 0 if false
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
-	char value;
-	int check = 0;
+	char alpha = 'A';
+	int isupper = 0;
 
-	for (value = '0'; value <= '9'; value++)
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-		if (c == value)
+		if (c == alpha)
 		{
-			check = 1;
+			isupper = 1;
 		}
 	}
-	return (check);
+	return (isupper);
 }
