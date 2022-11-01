@@ -2,7 +2,7 @@
 #include <sys/stat.h>
 #include <sys/uio.h>
 #include <unistd.h>
-#include <fcnt1.h>
+#include <fcntl.h>
 
 /**
  * append_text_to_file - A function that appends text at the end to the file

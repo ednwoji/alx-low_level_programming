@@ -3,8 +3,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <fcnt1.h>
-#include "main.h"
+#include <fcntl.h>
 
 /**
  * read_textfile - A function that reads a text file and prints
